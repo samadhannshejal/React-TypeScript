@@ -1,0 +1,52 @@
+.notification {
+  width: 200px;
+  min-width: max-content;
+  padding: 10px;
+  box-shadow: 0px 4px 4px rgb(106, 103, 103);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.notification-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.info {
+  background-color: rgb(58, 58, 236);
+  color: white;
+}
+.warning {
+  background-color: rgb(224, 224, 53);
+  color: rgb(230, 75, 75);
+}
+.success {
+  background-color: rgb(14, 169, 14);
+  color: white;
+}
+.error {
+  background-color: rgb(235, 42, 42);
+  color: black;
+}
+
+.top-left {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+.top-right {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+.bottom-left {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+}
+.bottom-right {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

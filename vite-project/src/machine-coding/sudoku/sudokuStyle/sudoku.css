@@ -1,0 +1,32 @@
+.sudoku-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+}
+.sudoku-row {
+  display: flex;
+}
+.sudoku-cell {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid #000;
+  outline: none;
+}
+.sudoku-cell:nth-child(3n + 1) {
+  border-left-width: 4px;
+}
+
+.sudoku-row:nth-child(3n + 1) .sudoku-cell {
+  border-top-width: 4px;
+}
+
+.sudoku-cell:last-child {
+  border-right-width: 4px;
+}
+
+.sudoku-row:last-child .sudoku-cell {
+  border-bottom-width: 4px;
+}
