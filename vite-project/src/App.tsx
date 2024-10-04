@@ -16,6 +16,7 @@ import Pagination from "./machine-coding/pagination/Pagination";
 import VideoStreamChatUI from "./machine-coding/videoStreamChatUI/VideoStreamChatUI";
 import GoogleSearch from "./machine-coding/search&auto-complete/GoogleSearch";
 import GenerateCircle from "./machine-coding/GenrateCircle/GenrateCircle";
+import InstagramComments from "./machine-coding/InstagramComment/InstagramComments";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       {/* <VideoStreamChatUI/> */}
       {/* <GoogleSearch/> */}
       <GenerateCircle/>
+      {/* <InstagramComments/> */}
     </>
   );
 }
