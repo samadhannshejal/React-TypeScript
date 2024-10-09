@@ -30,11 +30,11 @@ function App() {
       {/* <ProtectedRoute/> */}
       {/* <InfiniteScroll/> */}
       {/* <Accordion/> */}
-      {/* <NestedComments/> */}
+      <NestedComments/>
       {/* <Pagination/> */}
       {/* <VideoStreamChatUI/> */}
       {/* <GoogleSearch/> */}
-      <GenerateCircle/>
+      {/* <GenerateCircle/> */}
       {/* <InstagramComments/> */}
     </>
   );

@@ -44,15 +44,13 @@ const Comments: React.FC<MyCommentsProps> = ({ data, handleAddComment }) => {
     }
   };
   return (
-    <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
+    <div style={{ padding: "10px", fontFamily: "Arial, sans-serif" }}>
       {data.map((comment, idx: number) => (
         <div
           key={idx}
           style={{
-            marginBottom: "20px",
             borderRadius: "10px",
-            padding: "10px",
-          }}
+            }}
         >
           <div
             style={{
@@ -65,8 +63,8 @@ const Comments: React.FC<MyCommentsProps> = ({ data, handleAddComment }) => {
             <img
               src={profileImages[idx % profileImages.length]}
               alt="user"
-              width={50}
-              height={50}
+              width={35}
+              height={35}
               style={{
                 borderRadius: "50%",
                 objectFit: "cover",
